@@ -1,0 +1,78 @@
+h1{
+    margin:0;
+    padding:0;
+  }
+    .rcorners2 {
+        border-radius: 25px;
+        border: 1px solid #222222;
+        padding: 20px; 
+        width: 100%;
+        height: 240px;  
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .rcorners2 .card-wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 55%;
+        margin-top: 10px;
+    }
+
+    .rcorners2 .card {
+        flex: 1; 
+        margin-right: 10px;
+        padding: 1px; 
+        width: 30%;
+        height: 120px ;
+        border-radius: 15px;
+        box-shadow: 0 0 0.7cm rgba(0, 0, 0, 0.8); 
+        margin-top: auto; 
+        text-align: center;
+    }
+
+    .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 100%;
+    }
+
+    .rcorners3 {
+        display: flex;
+        justify-content: space-between;
+        border-radius: 25px;
+        border: 1px solid #222222;
+        padding: 20px; 
+        width: 100%;
+        height: 240px;
+    }
+
+    .box-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 25px;
+        border: 1px solid #222222;
+        padding: 5px; 
+        width: 30%;
+        height: 200px; 
+        margin-right: 10px;
+    }
+
+    .box .order-now {
+        margin-top: auto;
+        text-align: center;
+    }
+
+    .box:last-child {
+        margin-right: 0;
+    }
